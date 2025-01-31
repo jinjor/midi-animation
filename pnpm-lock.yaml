@@ -51,7 +51,7 @@ devDependencies:
     version: 4.2.1(vite@5.2.11)
   '@vitest/browser':
     specifier: ^1.0.0
-    version: 1.6.0(playwright@1.43.1)(vitest@1.6.0)
+    version: 1.6.0(playwright@1.50.1)(vitest@1.6.0)
   glob:
     specifier: ^10.3.10
     version: 10.3.12
@@ -66,7 +66,7 @@ devDependencies:
     version: 1.2.4
   playwright:
     specifier: ^1.38.0
-    version: 1.43.1
+    version: 1.50.1
   typescript:
     specifier: ^5.0.2
     version: 5.4.5
@@ -951,7 +951,7 @@ packages:
       - supports-color
     dev: true
 
-  /@vitest/browser@1.6.0(playwright@1.43.1)(vitest@1.6.0):
+  /@vitest/browser@1.6.0(playwright@1.50.1)(vitest@1.6.0):
     resolution: {integrity: sha512-3Wpp9h1hf++rRVPvoXevkdHybLhJVn7MwIMKMIh08tVaoDMmT6fnNhbP222Z48V9PptpYeA5zvH9Ct/ZcaAzmQ==}
     peerDependencies:
       playwright: '*'
@@ -968,7 +968,7 @@ packages:
     dependencies:
       '@vitest/utils': 1.6.0
       magic-string: 0.30.10
-      playwright: 1.43.1
+      playwright: 1.50.1
       sirv: 2.0.4
       vitest: 1.6.0(@types/node@20.12.8)(@vitest/browser@1.6.0)(jsdom@24.0.0)
     dev: true
@@ -1880,18 +1880,18 @@ packages:
       pathe: 1.1.2
     dev: true
 
-  /playwright-core@1.43.1:
-    resolution: {integrity: sha512-EI36Mto2Vrx6VF7rm708qSnesVQKbxEWvPrfA1IPY6HgczBplDx7ENtx+K2n4kJ41sLLkuGfmb0ZLSSXlDhqPg==}
-    engines: {node: '>=16'}
+  /playwright-core@1.50.1:
+    resolution: {integrity: sha512-ra9fsNWayuYumt+NiM069M6OkcRb1FZSK8bgi66AtpFoWkg2+y0bJSNmkFrWhMbEBbVKC/EruAHH3g0zmtwGmQ==}
+    engines: {node: '>=18'}
     hasBin: true
     dev: true
 
-  /playwright@1.43.1:
-    resolution: {integrity: sha512-V7SoH0ai2kNt1Md9E3Gwas5B9m8KR2GVvwZnAI6Pg0m3sh7UvgiYhRrhsziCmqMJNouPckiOhk8T+9bSAK0VIA==}
-    engines: {node: '>=16'}
+  /playwright@1.50.1:
+    resolution: {integrity: sha512-G8rwsOQJ63XG6BbKj2w5rHeavFjy5zynBA9zsJMMtBoe/Uf757oG12NXz6e6OirF7RCrTVAKFXbLmn1RbL7Qaw==}
+    engines: {node: '>=18'}
     hasBin: true
     dependencies:
-      playwright-core: 1.43.1
+      playwright-core: 1.50.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -2444,7 +2444,7 @@ packages:
         optional: true
     dependencies:
       '@types/node': 20.12.8
-      '@vitest/browser': 1.6.0(playwright@1.43.1)(vitest@1.6.0)
+      '@vitest/browser': 1.6.0(playwright@1.50.1)(vitest@1.6.0)
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
       '@vitest/snapshot': 1.6.0
